@@ -25,6 +25,7 @@ for port in port_list:
 
 serial_inst.baudrate = 9600
 serial_inst.port = port_var
+print(port_var)
 serial_inst.open()
 
 logger.info(f'Found {port_var} and now listening...')
