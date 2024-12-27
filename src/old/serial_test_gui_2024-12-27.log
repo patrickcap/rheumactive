@@ -1,0 +1,23 @@
+2024-12-27 10:14:39 - INFO - +++ Launched serial_test_gui.py
+2024-12-27 10:14:48 - INFO - Connected to COM4 - USB Serial Device (COM4).
+2024-12-27 10:14:53 - ERROR - Calibration failed: could not convert string to float: 'MPU6050 at 0x68 initialized.'
+2024-12-27 10:14:53 - ERROR - Test failed: could not convert string to float: 'MPU6050 at 0x69 initialized.'
+2024-12-27 10:14:56 - INFO - Calibration complete.
+2024-12-27 10:15:11 - INFO - Data saved to test_results_20241227_101511.csv
+2024-12-27 10:15:34 - INFO - --- Exiting serial_test_gui.py
+2024-12-27 10:30:56 - INFO - +++ Launched serial_test_gui.py
+2024-12-27 10:31:03 - INFO - Starting ankle test
+2024-12-27 10:31:05 - INFO - Starting ankle test
+2024-12-27 10:31:13 - INFO - Saved test data to ankle_test_2024-12-27_10-31-05.csv
+2024-12-27 10:31:13 - INFO - Saved test data to ankle_test_2024-12-27_10-31-05.csv
+2024-12-27 10:31:23 - INFO - Starting hip test
+2024-12-27 10:31:24 - INFO - Starting hip test
+2024-12-27 10:31:26 - INFO - Starting ankle test
+2024-12-27 10:31:26 - INFO - Starting ankle test
+2024-12-27 10:31:31 - INFO - Saved test data to ankle_test_2024-12-27_10-31-26.csv
+2024-12-27 10:31:31 - INFO - Saved test data to ankle_test_2024-12-27_10-31-26.csv
+2024-12-27 10:31:31 - INFO - Saved test data to ankle_test_2024-12-27_10-31-26.csv
+2024-12-27 10:31:31 - INFO - Saved test data to ankle_test_2024-12-27_10-31-26.csv
+2024-12-27 10:31:40 - INFO - Starting elbow test
+2024-12-27 10:31:40 - INFO - Starting elbow test
+2024-12-27 10:31:45 - INFO - --- Exiting serial_test_gui.py

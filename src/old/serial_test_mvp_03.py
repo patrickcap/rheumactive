@@ -100,7 +100,9 @@ class MobilityTestApp:
         self.data = []
 
         # Set datum (simulated here, replace with actual sensor calibration)
-        self.datum = {'roll': random.uniform(-5, 5), 'pitch': random.uniform(-5, 5), 'yaw': random.uniform(-5, 5)}
+        self.datum = {'roll': random.uniform(-5, 5),
+                      'pitch': random.uniform(-5, 5),
+                      'yaw': random.uniform(-5, 5)}
 
         messagebox.showinfo('Test Started', f'{test_type} test will run for 15 seconds.')
         self.root.after(1000, self.record_data)

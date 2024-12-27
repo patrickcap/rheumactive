@@ -1,4 +1,4 @@
-// Currently a copy of: Arduino_Sketch_Dual_MPU_Diff.ino
+// Currently a copy of: Arduino_Sketch_Dual_MVP_01.ino
 
 #include <Wire.h>
 #include <Adafruit_MPU6050.h>
@@ -51,19 +51,14 @@ void loop() {
   float pitch2 = atan2(-accel2.acceleration.x, sqrt(accel2.acceleration.y * accel2.acceleration.y + accel2.acceleration.z * accel2.acceleration.z)) * 180 / M_PI;
   float yaw2 = gyro2.gyro.z * 180 / M_PI; // Simplistic yaw approximation
 
-  // Calculate angular differences
-  float diffRoll = roll2 - roll1;
-  float diffPitch = pitch2 - pitch1;
-  float diffYaw = yaw2 - yaw1;
+  // Print data in CSV format: roll1,pitch1,yaw1,roll2,pitch2,yaw2
+  Serial.print(roll1, 2); Serial.print(",");
+  Serial.print(pitch1, 2); Serial.print(",");
+  Serial.print(yaw1, 2); Serial.print(",");
+  Serial.print(roll2, 2); Serial.print(",");
+  Serial.print(pitch2, 2); Serial.print(",");
+  Serial.println(yaw2, 2);
 
-  // Print angular differences
-  Serial.print("Angular Difference: ");
-  Serial.print("Roll=");
-  Serial.print(diffRoll, 2);
-  Serial.print(" Pitch=");
-  Serial.print(diffPitch, 2);
-  Serial.print(" Yaw=");
-  Serial.println(diffYaw, 2);
-
-  delay(100); // Adjust delay for desired update speed
+  // Adjust loop speed if necessary
+  delay(10); // 10ms delay gives ~100Hz output rate
 }
