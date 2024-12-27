@@ -9,8 +9,8 @@ from datetime import datetime
 import random
 
 # Configure logging
-current_date = datetime.now().strftime('%Y-%m-%d')
-log_filename = f'serial_test_gui_{current_date}.log'
+current_datetime = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+log_filename = f'serial_test_gui_{current_datetime}.log'
 
 logging.basicConfig(
     filename=log_filename,
