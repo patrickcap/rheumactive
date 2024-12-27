@@ -151,7 +151,7 @@ class MobilityTestApp:
             except Exception as e:
                 logger.error(f"Error reading data: {e}")
                 self.data_var.set("Error reading data")
-                
+
         if self.running:
             self.root.after(100, self.read_serial_data)  # Schedule next read in 100 ms
 
@@ -180,10 +180,48 @@ class MobilityTestApp:
                     text=f"No previous results for {test_type}. Start a new test to record data."
                 )
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     def start_test(self, test_type):
         self.current_test = test_type
         self.data = []
-        self.datum = {"roll": random.uniform(-5, 5), "pitch": random.uniform(-5, 5), "yaw": random.uniform(-5, 5)}
+        
+        # Use current readings as the datum
+        if self.serial_inst and self.serial_inst.in_waiting:
+            try:
+                packet = self.serial_inst.readline().decode('utf-8').strip()
+                data_list = [float(value) for value in packet.split(",")]
+                pitch = round((data_list[0] + data_list[3]) / 2, 1)
+                roll = round((data_list[1] + data_list[4]) / 2, 1)
+                yaw = round((data_list[2] + data_list[5]) / 2, 1)
+                self.datum = {"roll": roll, "pitch": pitch, "yaw": yaw}
+            except Exception as e:
+                messagebox.showerror("Error", f"Failed to initialize datum: {e}")
+                return
+        else:
+            messagebox.showerror("Error", "No serial data available for initializing datum.")
+            return
 
         messagebox.showinfo("Test Started", f"Starting 5-second {test_type} test.")
         self.root.after(100, self.record_data, 0)
@@ -193,13 +231,48 @@ class MobilityTestApp:
             self.save_test_results()
             return
 
-        # Simulated data
-        roll = self.datum["roll"] + random.uniform(-10, 10)
-        pitch = self.datum["pitch"] + random.uniform(-10, 10)
-        yaw = self.datum["yaw"] + random.uniform(-10, 10)
+        if self.serial_inst and self.serial_inst.in_waiting:
+            try:
+                # Read current serial data
+                packet = self.serial_inst.readline().decode('utf-8').strip()
+                data_list = [float(value) for value in packet.split(",")]
+                pitch = (data_list[0] + data_list[3] / 2)
+                roll = (data_list[1] + data_list[4] / 2)
+                yaw = (data_list[2] + data_list[5] / 2)
 
-        self.data.append({"roll": roll, "pitch": pitch, "yaw": yaw})
+                # Calculate differences from the datum
+                roll_diff = round(roll - self.datum["roll"], 1)
+                pitch_diff = round(pitch - self.datum["pitch"], 1)
+                yaw_diff = round(yaw - self.datum["yaw"], 1)
+
+                # Append differences to the data list
+                self.data.append({"roll": roll_diff, "pitch": pitch_diff, "yaw": yaw_diff})
+
+            except Exception as e:
+                logger.error(f"Error reading serial data during test: {e}")
+
         self.root.after(100, self.record_data, count + 1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     def save_test_results(self):
         file_name = f"previous_results_{self.current_test.replace(' ', '_').lower()}.csv"
