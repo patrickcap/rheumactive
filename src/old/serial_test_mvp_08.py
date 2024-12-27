@@ -127,15 +127,10 @@ class MobilityTestApp:
                 # Split the data into a list of floats
                 data_list = [float(value) for value in packet.split(",")]
 
-                # Calculate averages
-                pitch = (data_list[0] + data_list[3]) / 2
-                roll = (data_list[1] + data_list[4]) / 2
-                yaw = (data_list[2] + data_list[5]) / 2
-
-                # Limit decimal places to 1
-                pitch = round(pitch, 1)
-                roll = round(roll, 1)
-                yaw = round(yaw, 1)
+                # Calculate averages and limit to decimal places
+                roll = round((data_list[0] + data_list[3]) / 2, 1)
+                pitch = round((data_list[1] + data_list[4]) / 2, 1)
+                yaw = round((data_list[2] + data_list[5]) / 2, 1)
 
                 # Create a dictionary with average values
                 labeled_data = {
@@ -212,9 +207,11 @@ class MobilityTestApp:
             try:
                 packet = self.serial_inst.readline().decode('utf-8').strip()
                 data_list = [float(value) for value in packet.split(",")]
-                pitch = round((data_list[0] + data_list[3]) / 2, 1)
-                roll = round((data_list[1] + data_list[4]) / 2, 1)
+
+                roll = round((data_list[0] + data_list[3]) / 2, 1)
+                pitch = round((data_list[1] + data_list[4]) / 2, 1)
                 yaw = round((data_list[2] + data_list[5]) / 2, 1)
+
                 self.datum = {"roll": roll, "pitch": pitch, "yaw": yaw}
             except Exception as e:
                 messagebox.showerror("Error", f"Failed to initialize datum: {e}")
@@ -236,14 +233,17 @@ class MobilityTestApp:
                 # Read current serial data
                 packet = self.serial_inst.readline().decode('utf-8').strip()
                 data_list = [float(value) for value in packet.split(",")]
-                pitch = (data_list[0] + data_list[3] / 2)
-                roll = (data_list[1] + data_list[4] / 2)
-                yaw = (data_list[2] + data_list[5] / 2)
+
+                roll = (data_list[0] + data_list[3]) / 2
+                pitch = (data_list[1] + data_list[4]) / 2
+                yaw = (data_list[2] + data_list[5]) / 2
 
                 # Calculate differences from the datum
-                roll_diff = round(roll - self.datum["roll"], 1)
-                pitch_diff = round(pitch - self.datum["pitch"], 1)
-                yaw_diff = round(yaw - self.datum["yaw"], 1)
+                roll_diff = abs(round(roll - self.datum["roll"], 1))
+                pitch_diff = abs(round(pitch - self.datum["pitch"], 1))
+                yaw_diff = abs(round(yaw - self.datum["yaw"], 1))
+
+                logging.info(f"RollDatum={self.datum['roll']}, PitchDiff={self.datum['pitch']}, YawDiff={self.datum['yaw']}\nRoll1={data_list[0]}, Pitch1={data_list[1]}, Yaw1={data_list[2]}\nRoll2={data_list[3]}, Pitch2={data_list[4]}, Yaw2={data_list[5]}\nPitchDiff={pitch_diff}, RollDiff={roll_diff}, YawDiff={yaw_diff}")
 
                 # Append differences to the data list
                 self.data.append({"roll": roll_diff, "pitch": pitch_diff, "yaw": yaw_diff})
