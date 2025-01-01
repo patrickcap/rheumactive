@@ -8,6 +8,12 @@ Refer to [this](https://patrickcap.github.io/projects/rheumactive/) page for mor
 
 ---
 
+## Disclaimer
+
+The devices and designs provided are shared freely for educational and informational purposes. The creators do not accept any liability for any injury, damage, or loss caused by the use of these designs
+
+---
+
 ## Features
 
 - **Real-Time Data Acquisition:** Collect roll, pitch, yaw, acceleration, and angular velocity data from multiple MPU-6050 sensors.
