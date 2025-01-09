@@ -40,7 +40,6 @@ def connect_to_port(selected_port, baud_rate=9600):
     serial_inst.open()
     return serial_inst
 
-
 class MobilityTestApp:
     TEST_TYPES = ["Ankle Left", "Ankle Right"]
 
@@ -126,19 +125,31 @@ class MobilityTestApp:
 
     def create_test_tab(self, tab, test_type):
         # Previous results display
+        self.previous_results_title = tk.Label(tab, text="Latest Score", font=("Helvetica", 12, "bold"), wraplength=400, justify="left")
+        self.previous_results_title.pack(pady=0)
+
         self.previous_results_label = tk.Label(tab, text="", font=("Helvetica", 12), wraplength=400, justify="left")
-        self.previous_results_label.pack(pady=20)
+        self.previous_results_label.pack(pady=0)
         self.display_previous_results(test_type)
+
+        # Warning the user to set the datum before the test correctly
+        self.test_datum_title = tk.Label(tab, text="Datum", font=("Helvetica", 12, "bold"), wraplength=400, justify="left")
+        self.test_datum_title.pack(pady=0)
+
+        self.test_datum_note = tk.Label(tab, text="Before starting the test, ensure your foot is at a 90 degree angle to your lower legand is raised off the ground to allow for full movement. This can be done by sitting or standing and raising the foot slightly above the ground (~20cm).", font=("Helvetica", 12), wraplength=400, justify="center")
+        self.test_datum_note.pack(pady=0)
 
         # Start test button
         start_button = tk.Button(tab, text="Start New 5s Test", command=lambda: self.start_test(test_type))
         start_button.pack(pady=10)
 
         # Highest score display
-        self.highest_score_label = tk.Label(tab, text="", font=("Helvetica", 12))
-        self.highest_score_label.pack(pady=10)
+        self.highest_score_title = tk.Label(tab, text="Highest Score", font=("Helvetica", 12, "bold"), wraplength=400, justify="left")
+        self.highest_score_title.pack(pady=0)
+        
+        self.highest_score_label = tk.Label(tab, text="", font=("Helvetica", 12), wraplength=400, justify="left")
+        self.highest_score_label.pack(pady=0)
         self.update_highest_score_display(test_type)
-
 
     def connect_to_serial(self):
         try:
@@ -218,8 +229,7 @@ class MobilityTestApp:
             if reader:
                 last_result = reader[-1]
                 self.previous_results_label.config(
-                    text=f"Your previous test for {test_type} was on {last_result['datetime']} "
-                         f"with the following scores:\n"
+                    text=f"Date: {last_result['datetime']}\n"
                          f"Roll: {last_result['roll']}°\n"
                          f"Pitch: {last_result['pitch']}°\n"
                          f"Yaw: {last_result['yaw']}°"
@@ -228,6 +238,15 @@ class MobilityTestApp:
                 self.previous_results_label.config(
                     text=f"No previous results for {test_type}. Start a new test to record data."
                 )
+
+    def update_highest_score_display(self, test_type):
+        highest = self.highest_scores[test_type]
+        self.highest_score_label.config(
+            text=f"Date: {highest['datetime']}\n"
+                 f"Roll: {highest['roll']}°\n"
+                 f"Pitch: {highest['pitch']}°\n"
+                 f"Yaw: {highest['yaw']}°"
+        )
 
     def start_test(self, test_type):
         self.current_test = test_type
@@ -322,16 +341,6 @@ class MobilityTestApp:
         # Update previous results
         self.display_previous_results(self.current_test)
         messagebox.showinfo("Test Complete", f"{self.current_test} test complete. Data saved to {file_name}.")
-
-    def update_highest_score_display(self, test_type):
-        highest = self.highest_scores[test_type]
-        self.highest_score_label.config(
-            text=f"Highest Score:\n"
-                f"Date: {highest['datetime']}\n"
-                f"Roll: {highest['roll']}°\n"
-                f"Pitch: {highest['pitch']}°\n"
-                f"Yaw: {highest['yaw']}°"
-        )
 
     def on_close(self):
         self.running = False
