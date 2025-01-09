@@ -299,17 +299,6 @@ class MobilityTestApp:
         self.display_previous_results(self.current_test)
         messagebox.showinfo("Test Complete", f"{self.current_test} test complete. Data saved to {file_name}.")
 
-
-
-
-
-
-
-
-
-
-
-
     def on_close(self):
         self.running = False
         if self.serial_inst and self.serial_inst.is_open:
