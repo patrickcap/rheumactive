@@ -2,6 +2,8 @@
 
 ![RheumActive Hardware Setup](img/RheumActive_Cover.png)
 
+![RheumActive Left Ankle Measurement Screenshot](img/RheumActive_Screenshot.png)
+
 RheumActive (a play on the word 'rheumatic') is a system designed to track the joint range of motion for people with rheumatoid arthritis, like myself, and ultimately improve the quality of life for people with this disease. Using MPU-6050 accelerometers and an Arduino Nano ESP32, this software enables live data visualization and provides insights into joint movement, angular differences, and more. This repository contains the software required for collecting, processing, and visualizing data from the sensors.
 
 Refer to [this](https://patrickcap.github.io/projects/rheumactive/) page for more information.
