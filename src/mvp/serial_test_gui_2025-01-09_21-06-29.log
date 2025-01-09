@@ -1,0 +1,370 @@
+2025-01-09 21:06:29 - INFO - +++ Launched mobility_test_gui.py
+2025-01-09 21:06:40 - INFO - Connected to COM4 - USB Serial Device (COM4).
+2025-01-09 21:06:40 - INFO - Processed data: Pitch: -6.6°, Roll: 124.5°, Yaw: 0.6°
+2025-01-09 21:06:40 - INFO - Processed data: Pitch: -6.8°, Roll: 124.0°, Yaw: 0.5°
+2025-01-09 21:06:40 - INFO - Processed data: Pitch: -6.6°, Roll: 124.4°, Yaw: 0.6°
+2025-01-09 21:06:41 - INFO - Processed data: Pitch: -6.8°, Roll: 124.3°, Yaw: 0.6°
+2025-01-09 21:06:41 - INFO - Processed data: Pitch: -6.8°, Roll: 124.4°, Yaw: 0.5°
+2025-01-09 21:06:41 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:41 - INFO - Processed data: Pitch: -6.6°, Roll: 124.1°, Yaw: 0.5°
+2025-01-09 21:06:41 - INFO - Processed data: Pitch: -6.9°, Roll: 124.6°, Yaw: 0.6°
+2025-01-09 21:06:41 - INFO - Processed data: Pitch: -6.8°, Roll: 124.4°, Yaw: 0.6°
+2025-01-09 21:06:41 - INFO - Processed data: Pitch: -6.8°, Roll: 124.5°, Yaw: 0.6°
+2025-01-09 21:06:41 - INFO - Processed data: Pitch: -6.7°, Roll: 124.3°, Yaw: 0.6°
+2025-01-09 21:06:41 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:41 - ERROR - Error converting data to float: could not convert string to float: ''
+2025-01-09 21:06:41 - INFO - Processed data: Pitch: -6.4°, Roll: 124.4°, Yaw: 0.4°
+2025-01-09 21:06:42 - INFO - Processed data: Pitch: -6.6°, Roll: 124.6°, Yaw: 0.6°
+2025-01-09 21:06:42 - INFO - Processed data: Pitch: -6.8°, Roll: 124.5°, Yaw: 0.7°
+2025-01-09 21:06:42 - INFO - Processed data: Pitch: -6.8°, Roll: 124.6°, Yaw: 0.5°
+2025-01-09 21:06:42 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:42 - INFO - Processed data: Pitch: -6.8°, Roll: 124.5°, Yaw: 0.5°
+2025-01-09 21:06:42 - INFO - Processed data: Pitch: -6.5°, Roll: 124.5°, Yaw: 0.6°
+2025-01-09 21:06:42 - INFO - Processed data: Pitch: -6.9°, Roll: 124.4°, Yaw: 0.6°
+2025-01-09 21:06:42 - INFO - Processed data: Pitch: -7.0°, Roll: 124.5°, Yaw: 0.5°
+2025-01-09 21:06:42 - INFO - Processed data: Pitch: -6.6°, Roll: 124.3°, Yaw: 0.6°
+2025-01-09 21:06:42 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:42 - INFO - Processed data: Pitch: -6.7°, Roll: 124.3°, Yaw: 0.5°
+2025-01-09 21:06:43 - INFO - Processed data: Pitch: -6.7°, Roll: 124.5°, Yaw: 0.6°
+2025-01-09 21:06:43 - INFO - Processed data: Pitch: -6.7°, Roll: 124.3°, Yaw: 0.5°
+2025-01-09 21:06:43 - INFO - Processed data: Pitch: -6.6°, Roll: 124.2°, Yaw: 0.5°
+2025-01-09 21:06:43 - INFO - Processed data: Pitch: -6.9°, Roll: 124.4°, Yaw: 0.5°
+2025-01-09 21:06:43 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:43 - INFO - Processed data: Pitch: -6.6°, Roll: 124.6°, Yaw: 0.6°
+2025-01-09 21:06:43 - INFO - Processed data: Pitch: -6.8°, Roll: 124.3°, Yaw: 0.5°
+2025-01-09 21:06:43 - INFO - Processed data: Pitch: -6.8°, Roll: 124.5°, Yaw: 0.6°
+2025-01-09 21:06:43 - INFO - Processed data: Pitch: -6.8°, Roll: 124.6°, Yaw: 0.5°
+2025-01-09 21:06:43 - INFO - Processed data: Pitch: -7.0°, Roll: 124.2°, Yaw: 0.5°
+2025-01-09 21:06:44 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:44 - INFO - Processed data: Pitch: -6.8°, Roll: 124.7°, Yaw: 0.5°
+2025-01-09 21:06:44 - INFO - Processed data: Pitch: -6.5°, Roll: 124.2°, Yaw: 0.6°
+2025-01-09 21:06:44 - INFO - Processed data: Pitch: -7.0°, Roll: 124.4°, Yaw: 0.5°
+2025-01-09 21:06:44 - INFO - Processed data: Pitch: -6.7°, Roll: 124.0°, Yaw: 0.5°
+2025-01-09 21:06:44 - INFO - Processed data: Pitch: -6.9°, Roll: 124.2°, Yaw: 0.6°
+2025-01-09 21:06:44 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:44 - INFO - Processed data: Pitch: -6.7°, Roll: 124.3°, Yaw: 0.6°
+2025-01-09 21:06:44 - INFO - Processed data: Pitch: -6.9°, Roll: 124.3°, Yaw: 0.6°
+2025-01-09 21:06:44 - INFO - Processed data: Pitch: -6.6°, Roll: 124.3°, Yaw: 0.6°
+2025-01-09 21:06:44 - INFO - Processed data: Pitch: -6.6°, Roll: 124.3°, Yaw: 0.5°
+2025-01-09 21:06:45 - INFO - Processed data: Pitch: -6.8°, Roll: 124.3°, Yaw: 0.7°
+2025-01-09 21:06:45 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:45 - INFO - Processed data: Pitch: -6.7°, Roll: 124.3°, Yaw: 0.5°
+2025-01-09 21:06:45 - INFO - Processed data: Pitch: -6.8°, Roll: 124.3°, Yaw: 0.6°
+2025-01-09 21:06:45 - INFO - Processed data: Pitch: -6.8°, Roll: 124.4°, Yaw: 0.6°
+2025-01-09 21:06:45 - INFO - Processed data: Pitch: -6.6°, Roll: 124.4°, Yaw: 0.6°
+2025-01-09 21:06:45 - INFO - Processed data: Pitch: -6.7°, Roll: 124.7°, Yaw: 0.5°
+2025-01-09 21:06:45 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:45 - INFO - Processed data: Pitch: -6.9°, Roll: 124.5°, Yaw: 0.6°
+2025-01-09 21:06:45 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=118.3, Pitch1=-8.9, Yaw1=0.21, Roll2=130.97, Pitch2=-4.72, Yaw2=0.75, PitchDiff=0.0, RollDiff=0.2, YawDiff=0.0
+2025-01-09 21:06:45 - INFO - Processed data: Pitch: -6.8°, Roll: 124.1°, Yaw: 0.5°
+2025-01-09 21:06:45 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.94, Pitch1=-8.72, Yaw1=0.15, Roll2=130.77, Pitch2=-4.76, Yaw2=0.97, PitchDiff=0.1, RollDiff=0.0, YawDiff=0.1
+2025-01-09 21:06:45 - INFO - Processed data: Pitch: -6.9°, Roll: 124.0°, Yaw: 0.6°
+2025-01-09 21:06:45 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.82, Pitch1=-8.99, Yaw1=0.2, Roll2=130.63, Pitch2=-4.65, Yaw2=0.89, PitchDiff=0.0, RollDiff=0.2, YawDiff=0.0
+2025-01-09 21:06:46 - INFO - Processed data: Pitch: -6.7°, Roll: 124.4°, Yaw: 0.7°
+2025-01-09 21:06:46 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=118.18, Pitch1=-8.43, Yaw1=0.28, Roll2=131.04, Pitch2=-4.79, Yaw2=0.95, PitchDiff=0.2, RollDiff=0.2, YawDiff=0.1
+2025-01-09 21:06:46 - INFO - Processed data: Pitch: -6.5°, Roll: 124.4°, Yaw: 0.5°
+2025-01-09 21:06:46 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.57, Pitch1=-8.75, Yaw1=0.15, Roll2=131.13, Pitch2=-4.6, Yaw2=0.95, PitchDiff=0.1, RollDiff=0.1, YawDiff=0.0
+2025-01-09 21:06:46 - INFO - Processed data: Pitch: -6.6°, Roll: 124.3°, Yaw: 0.6°
+2025-01-09 21:06:46 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.81, Pitch1=-8.76, Yaw1=0.17, Roll2=130.73, Pitch2=-5.04, Yaw2=0.91, PitchDiff=0.1, RollDiff=0.1, YawDiff=0.0
+2025-01-09 21:06:46 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:46 - INFO - Processed data: Pitch: -19.6°, Roll: 135.1°, Yaw: 1.7°
+2025-01-09 21:06:46 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=136.09, Pitch1=-15.51, Yaw1=-2.5, Roll2=131.69, Pitch2=-13.64, Yaw2=-10.61, PitchDiff=7.8, RollDiff=9.5, YawDiff=7.1
+2025-01-09 21:06:46 - INFO - Processed data: Pitch: -26.6°, Roll: 132.3°, Yaw: 31.2°
+2025-01-09 21:06:46 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=138.64, Pitch1=-15.04, Yaw1=4.64, Roll2=145.3, Pitch2=-28.03, Yaw2=87.31, PitchDiff=14.7, RollDiff=17.6, YawDiff=45.5
+2025-01-09 21:06:46 - INFO - Processed data: Pitch: -12.1°, Roll: 141.2°, Yaw: 22.1°
+2025-01-09 21:06:46 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=136.19, Pitch1=-16.57, Yaw1=0.88, Roll2=168.66, Pitch2=-7.35, Yaw2=7.52, PitchDiff=5.2, RollDiff=28.0, YawDiff=3.7
+2025-01-09 21:06:46 - INFO - Processed data: Pitch: -16.8°, Roll: 145.6°, Yaw: -5.1°
+2025-01-09 21:06:46 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=157.24, Pitch1=-23.33, Yaw1=-20.53, Roll2=144.9, Pitch2=-32.37, Yaw2=-56.29, PitchDiff=21.0, RollDiff=26.7, YawDiff=38.9
+2025-01-09 21:06:46 - INFO - Processed data: Pitch: -26.4°, Roll: 163.2°, Yaw: -56.7°
+2025-01-09 21:06:46 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=138.88, Pitch1=-13.51, Yaw1=-85.17, Roll2=159.16, Pitch2=-9.52, Yaw2=-76.94, PitchDiff=4.7, RollDiff=24.6, YawDiff=81.6
+2025-01-09 21:06:46 - INFO - Processed data: Pitch: -8.1°, Roll: 141.0°, Yaw: -93.3°
+2025-01-09 21:06:47 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=126.39, Pitch1=-5.97, Yaw1=-81.21, Roll2=160.69, Pitch2=2.8, Yaw2=-105.73, PitchDiff=5.2, RollDiff=19.1, YawDiff=94.0
+2025-01-09 21:06:47 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:47 - INFO - Processed data: Pitch: 1.1°, Roll: 116.0°, Yaw: -0.4°
+2025-01-09 21:06:47 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=104.18, Pitch1=-2.46, Yaw1=10.98, Roll2=119.07, Pitch2=7.7, Yaw2=-10.46, PitchDiff=9.4, RollDiff=12.8, YawDiff=0.2
+2025-01-09 21:06:47 - INFO - Processed data: Pitch: 6.5°, Roll: 105.9°, Yaw: 2.5°
+2025-01-09 21:06:47 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=106.62, Pitch1=-1.65, Yaw1=26.38, Roll2=101.6, Pitch2=13.18, Yaw2=-1.37, PitchDiff=12.6, RollDiff=20.3, YawDiff=12.0
+2025-01-09 21:06:47 - INFO - Processed data: Pitch: 4.5°, Roll: 104.4°, Yaw: 26.6°
+2025-01-09 21:06:47 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=121.47, Pitch1=-2.22, Yaw1=49.55, Roll2=107.88, Pitch2=6.08, Yaw2=25.09, PitchDiff=8.7, RollDiff=9.7, YawDiff=36.8
+2025-01-09 21:06:47 - INFO - Processed data: Pitch: 4.5°, Roll: 111.7°, Yaw: 49.6°
+2025-01-09 21:06:47 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=109.96, Pitch1=0.7, Yaw1=55.89, Roll2=111.49, Pitch2=13.36, Yaw2=68.24, PitchDiff=13.8, RollDiff=13.7, YawDiff=61.6
+2025-01-09 21:06:47 - INFO - Processed data: Pitch: 6.8°, Roll: 112.5°, Yaw: 69.9°
+2025-01-09 21:06:47 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.66, Pitch1=-3.09, Yaw1=68.08, Roll2=115.5, Pitch2=7.42, Yaw2=77.86, PitchDiff=9.0, RollDiff=7.8, YawDiff=72.5
+2025-01-09 21:06:47 - INFO - Processed data: Pitch: 0.6°, Roll: 122.4°, Yaw: 81.1°
+2025-01-09 21:06:47 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=119.64, Pitch1=-2.67, Yaw1=69.56, Roll2=128.66, Pitch2=12.33, Yaw2=105.27, PitchDiff=11.6, RollDiff=0.2, YawDiff=86.9
+2025-01-09 21:06:47 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:47 - INFO - Processed data: Pitch: -5.0°, Roll: 127.6°, Yaw: -7.0°
+2025-01-09 21:06:47 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=127.28, Pitch1=-11.31, Yaw1=-15.28, Roll2=126.42, Pitch2=-0.71, Yaw2=-3.74, PitchDiff=0.8, RollDiff=2.4, YawDiff=10.0
+2025-01-09 21:06:47 - INFO - Processed data: Pitch: -7.5°, Roll: 126.4°, Yaw: -9.9°
+2025-01-09 21:06:47 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=124.57, Pitch1=-11.71, Yaw1=-16.89, Roll2=128.62, Pitch2=-6.02, Yaw2=-5.24, PitchDiff=2.1, RollDiff=2.2, YawDiff=11.6
+2025-01-09 21:06:47 - INFO - Processed data: Pitch: -9.9°, Roll: 132.2°, Yaw: -4.9°
+2025-01-09 21:06:48 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=130.63, Pitch1=-7.25, Yaw1=-28.48, Roll2=135.53, Pitch2=-0.51, Yaw2=-0.27, PitchDiff=2.9, RollDiff=8.7, YawDiff=14.9
+2025-01-09 21:06:48 - INFO - Processed data: Pitch: -1.7°, Roll: 128.0°, Yaw: -23.5°
+2025-01-09 21:06:48 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=122.76, Pitch1=-6.94, Yaw1=-26.66, Roll2=133.8, Pitch2=0.4, Yaw2=-10.53, PitchDiff=3.5, RollDiff=3.9, YawDiff=19.1
+2025-01-09 21:06:48 - INFO - Processed data: Pitch: -0.0°, Roll: 123.5°, Yaw: -17.6°
+2025-01-09 21:06:48 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.74, Pitch1=-2.55, Yaw1=-19.63, Roll2=125.61, Pitch2=8.69, Yaw2=-10.37, PitchDiff=9.9, RollDiff=2.7, YawDiff=15.5
+2025-01-09 21:06:48 - INFO - Processed data: Pitch: 1.0°, Roll: 117.2°, Yaw: -16.2°
+2025-01-09 21:06:48 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.37, Pitch1=-8.2, Yaw1=-16.18, Roll2=115.26, Pitch2=0.54, Yaw2=-1.37, PitchDiff=3.0, RollDiff=8.1, YawDiff=9.3
+2025-01-09 21:06:48 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:48 - INFO - Processed data: Pitch: -7.1°, Roll: 126.1°, Yaw: 0.4°
+2025-01-09 21:06:48 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=118.51, Pitch1=-8.95, Yaw1=-0.08, Roll2=133.38, Pitch2=-4.81, Yaw2=0.73, PitchDiff=0.1, RollDiff=1.5, YawDiff=0.2
+2025-01-09 21:06:48 - INFO - Processed data: Pitch: -6.7°, Roll: 125.8°, Yaw: 0.3°
+2025-01-09 21:06:48 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=118.24, Pitch1=-8.92, Yaw1=-0.07, Roll2=133.65, Pitch2=-4.67, Yaw2=0.76, PitchDiff=0.0, RollDiff=1.5, YawDiff=0.2
+2025-01-09 21:06:48 - INFO - Processed data: Pitch: -6.7°, Roll: 125.8°, Yaw: 0.3°
+2025-01-09 21:06:48 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=118.51, Pitch1=-8.8, Yaw1=0.1, Roll2=134.04, Pitch2=-5.05, Yaw2=0.76, PitchDiff=0.1, RollDiff=1.9, YawDiff=0.1
+2025-01-09 21:06:48 - INFO - Processed data: Pitch: -6.7°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:06:48 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=118.37, Pitch1=-8.42, Yaw1=0.0, Roll2=133.12, Pitch2=-4.76, Yaw2=0.76, PitchDiff=0.2, RollDiff=1.3, YawDiff=0.1
+2025-01-09 21:06:48 - INFO - Processed data: Pitch: -6.7°, Roll: 125.6°, Yaw: 0.3°
+2025-01-09 21:06:48 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=118.38, Pitch1=-8.21, Yaw1=-0.05, Roll2=133.63, Pitch2=-5.02, Yaw2=0.86, PitchDiff=0.2, RollDiff=1.6, YawDiff=0.1
+2025-01-09 21:06:48 - INFO - Processed data: Pitch: -6.7°, Roll: 126.0°, Yaw: 0.3°
+2025-01-09 21:06:49 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=118.04, Pitch1=-8.55, Yaw1=-0.01, Roll2=133.62, Pitch2=-5.02, Yaw2=0.86, PitchDiff=0.0, RollDiff=1.4, YawDiff=0.1
+2025-01-09 21:06:49 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:49 - INFO - Processed data: Pitch: -6.5°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:06:49 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.95, Pitch1=-8.47, Yaw1=0.14, Roll2=134.28, Pitch2=-4.99, Yaw2=0.81, PitchDiff=0.1, RollDiff=1.7, YawDiff=0.0
+2025-01-09 21:06:49 - INFO - Processed data: Pitch: -6.7°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:06:49 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.57, Pitch1=-8.46, Yaw1=-0.17, Roll2=133.94, Pitch2=-4.8, Yaw2=0.72, PitchDiff=0.2, RollDiff=1.4, YawDiff=0.2
+2025-01-09 21:06:49 - INFO - Processed data: Pitch: -6.6°, Roll: 125.7°, Yaw: 0.2°
+2025-01-09 21:06:49 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.97, Pitch1=-8.56, Yaw1=0.19, Roll2=133.64, Pitch2=-4.62, Yaw2=0.64, PitchDiff=0.2, RollDiff=1.4, YawDiff=0.1
+2025-01-09 21:06:49 - INFO - Processed data: Pitch: -6.7°, Roll: 125.7°, Yaw: 0.4°
+2025-01-09 21:06:49 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.85, Pitch1=-8.77, Yaw1=0.82, Roll2=134.09, Pitch2=-5.18, Yaw2=1.02, PitchDiff=0.2, RollDiff=1.6, YawDiff=0.4
+2025-01-09 21:06:49 - INFO - Processed data: Pitch: -6.5°, Roll: 125.8°, Yaw: 0.2°
+2025-01-09 21:06:49 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.84, Pitch1=-8.56, Yaw1=0.09, Roll2=133.99, Pitch2=-4.56, Yaw2=0.91, PitchDiff=0.2, RollDiff=1.5, YawDiff=0.0
+2025-01-09 21:06:49 - INFO - Processed data: Pitch: -6.7°, Roll: 125.7°, Yaw: 0.4°
+2025-01-09 21:06:49 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.67, Pitch1=-8.59, Yaw1=0.16, Roll2=133.52, Pitch2=-4.73, Yaw2=0.76, PitchDiff=0.1, RollDiff=1.2, YawDiff=0.0
+2025-01-09 21:06:49 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:49 - INFO - Processed data: Pitch: -6.8°, Roll: 125.7°, Yaw: 0.6°
+2025-01-09 21:06:49 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.39, Pitch1=-8.49, Yaw1=0.27, Roll2=133.62, Pitch2=-4.97, Yaw2=0.86, PitchDiff=0.1, RollDiff=1.1, YawDiff=0.1
+2025-01-09 21:06:49 - INFO - Processed data: Pitch: -6.8°, Roll: 125.8°, Yaw: 0.6°
+2025-01-09 21:06:49 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.83, Pitch1=-8.51, Yaw1=-0.08, Roll2=133.83, Pitch2=-5.0, Yaw2=0.95, PitchDiff=0.0, RollDiff=1.4, YawDiff=0.1
+2025-01-09 21:06:49 - INFO - Processed data: Pitch: -6.6°, Roll: 125.9°, Yaw: 0.4°
+2025-01-09 21:06:50 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=118.1, Pitch1=-8.17, Yaw1=-0.08, Roll2=133.83, Pitch2=-4.83, Yaw2=0.89, PitchDiff=0.3, RollDiff=1.6, YawDiff=0.1
+2025-01-09 21:06:50 - INFO - Processed data: Pitch: -6.7°, Roll: 125.6°, Yaw: 0.5°
+2025-01-09 21:06:50 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.54, Pitch1=-8.63, Yaw1=0.21, Roll2=133.64, Pitch2=-4.9, Yaw2=0.99, PitchDiff=0.0, RollDiff=1.2, YawDiff=0.1
+2025-01-09 21:06:50 - INFO - Processed data: Pitch: -6.6°, Roll: 126.0°, Yaw: 0.5°
+2025-01-09 21:06:50 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.93, Pitch1=-8.75, Yaw1=0.16, Roll2=133.74, Pitch2=-4.92, Yaw2=0.76, PitchDiff=0.0, RollDiff=1.4, YawDiff=0.0
+2025-01-09 21:06:50 - INFO - Processed data: Pitch: -6.6°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:06:50 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.9, Pitch1=-8.62, Yaw1=0.26, Roll2=133.79, Pitch2=-4.84, Yaw2=0.96, PitchDiff=0.1, RollDiff=1.4, YawDiff=0.1
+2025-01-09 21:06:50 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:50 - INFO - Processed data: Pitch: -6.9°, Roll: 125.6°, Yaw: 0.6°
+2025-01-09 21:06:50 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.63, Pitch1=-8.53, Yaw1=0.1, Roll2=133.43, Pitch2=-4.87, Yaw2=0.85, PitchDiff=0.1, RollDiff=1.1, YawDiff=0.0
+2025-01-09 21:06:50 - INFO - Processed data: Pitch: -6.8°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:06:50 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.98, Pitch1=-8.77, Yaw1=0.16, Roll2=133.23, Pitch2=-4.64, Yaw2=1.01, PitchDiff=0.1, RollDiff=1.2, YawDiff=0.1
+2025-01-09 21:06:50 - INFO - Processed data: Pitch: -6.7°, Roll: 125.8°, Yaw: 0.6°
+2025-01-09 21:06:50 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.93, Pitch1=-8.38, Yaw1=0.24, Roll2=134.22, Pitch2=-4.97, Yaw2=0.9, PitchDiff=0.1, RollDiff=1.7, YawDiff=0.1
+2025-01-09 21:06:50 - INFO - Processed data: Pitch: -6.9°, Roll: 125.6°, Yaw: 0.5°
+2025-01-09 21:06:50 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.57, Pitch1=-8.38, Yaw1=0.23, Roll2=133.82, Pitch2=-4.99, Yaw2=0.95, PitchDiff=0.1, RollDiff=1.3, YawDiff=0.1
+2025-01-09 21:06:50 - INFO - Processed data: Pitch: -6.5°, Roll: 125.6°, Yaw: 0.5°
+2025-01-09 21:06:50 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.76, Pitch1=-8.64, Yaw1=0.18, Roll2=134.23, Pitch2=-4.78, Yaw2=0.85, PitchDiff=0.1, RollDiff=1.6, YawDiff=0.0
+2025-01-09 21:06:50 - INFO - Processed data: Pitch: -6.7°, Roll: 125.9°, Yaw: 0.4°
+2025-01-09 21:06:51 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.58, Pitch1=-8.61, Yaw1=0.24, Roll2=133.54, Pitch2=-5.1, Yaw2=0.82, PitchDiff=0.1, RollDiff=1.2, YawDiff=0.0
+2025-01-09 21:06:51 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:51 - INFO - Processed data: Pitch: -6.6°, Roll: 125.7°, Yaw: 0.3°
+2025-01-09 21:06:51 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.69, Pitch1=-8.77, Yaw1=0.36, Roll2=134.17, Pitch2=-5.22, Yaw2=0.53, PitchDiff=0.2, RollDiff=1.5, YawDiff=0.1
+2025-01-09 21:06:51 - INFO - Processed data: Pitch: -6.4°, Roll: 125.9°, Yaw: 0.5°
+2025-01-09 21:06:51 - INFO - RollDatum=124.4, PitchDiff=-6.8, YawDiff=0.5, Roll1=117.46, Pitch1=-8.69, Yaw1=0.47, Roll2=134.06, Pitch2=-5.28, Yaw2=0.78, PitchDiff=0.2, RollDiff=1.4, YawDiff=0.1
+2025-01-09 21:06:51 - INFO - Processed data: Pitch: -6.9°, Roll: 125.6°, Yaw: 0.4°
+2025-01-09 21:06:51 - INFO - Processed data: Pitch: -6.7°, Roll: 125.9°, Yaw: 0.4°
+2025-01-09 21:06:51 - INFO - Processed data: Pitch: -6.7°, Roll: 125.6°, Yaw: 0.0°
+2025-01-09 21:06:51 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:51 - INFO - Processed data: Pitch: -6.6°, Roll: 125.7°, Yaw: 0.6°
+2025-01-09 21:06:51 - INFO - Processed data: Pitch: -6.8°, Roll: 125.7°, Yaw: 0.6°
+2025-01-09 21:06:51 - INFO - Processed data: Pitch: -6.7°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:06:51 - INFO - Processed data: Pitch: -6.7°, Roll: 125.5°, Yaw: 0.6°
+2025-01-09 21:06:52 - INFO - Processed data: Pitch: -6.6°, Roll: 125.6°, Yaw: 0.6°
+2025-01-09 21:06:52 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:52 - INFO - Processed data: Pitch: -6.8°, Roll: 125.7°, Yaw: 0.6°
+2025-01-09 21:06:52 - INFO - Processed data: Pitch: -6.7°, Roll: 125.9°, Yaw: 0.6°
+2025-01-09 21:06:52 - INFO - Processed data: Pitch: -6.5°, Roll: 125.7°, Yaw: 0.6°
+2025-01-09 21:06:52 - INFO - Processed data: Pitch: -6.6°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:06:52 - INFO - Processed data: Pitch: -6.8°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:06:52 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:52 - INFO - Processed data: Pitch: -6.6°, Roll: 125.5°, Yaw: 0.5°
+2025-01-09 21:06:52 - INFO - Processed data: Pitch: -6.8°, Roll: 125.6°, Yaw: 0.6°
+2025-01-09 21:06:52 - INFO - Processed data: Pitch: -6.7°, Roll: 125.9°, Yaw: 0.5°
+2025-01-09 21:06:53 - INFO - Processed data: Pitch: -6.6°, Roll: 125.6°, Yaw: 0.6°
+2025-01-09 21:06:53 - INFO - Processed data: Pitch: -6.7°, Roll: 125.9°, Yaw: 0.5°
+2025-01-09 21:06:53 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:53 - INFO - Processed data: Pitch: -7.0°, Roll: 125.9°, Yaw: 0.6°
+2025-01-09 21:06:53 - INFO - Processed data: Pitch: -6.5°, Roll: 125.6°, Yaw: 0.5°
+2025-01-09 21:06:53 - INFO - Processed data: Pitch: -6.7°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:06:53 - INFO - Processed data: Pitch: -6.6°, Roll: 126.1°, Yaw: 0.5°
+2025-01-09 21:06:53 - INFO - Processed data: Pitch: -6.9°, Roll: 125.6°, Yaw: 0.5°
+2025-01-09 21:06:53 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:53 - INFO - Processed data: Pitch: -6.5°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:06:53 - INFO - Processed data: Pitch: -6.8°, Roll: 125.8°, Yaw: 0.7°
+2025-01-09 21:06:54 - INFO - Processed data: Pitch: -6.4°, Roll: 125.6°, Yaw: 0.6°
+2025-01-09 21:06:54 - INFO - Processed data: Pitch: -6.5°, Roll: 125.4°, Yaw: 0.5°
+2025-01-09 21:06:54 - INFO - Processed data: Pitch: -6.6°, Roll: 125.8°, Yaw: 0.6°
+2025-01-09 21:06:54 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:54 - INFO - Processed data: Pitch: -6.8°, Roll: 125.9°, Yaw: 0.5°
+2025-01-09 21:06:54 - INFO - Processed data: Pitch: -6.8°, Roll: 125.6°, Yaw: 0.5°
+2025-01-09 21:06:54 - INFO - Processed data: Pitch: -6.8°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:06:54 - INFO - Processed data: Pitch: -6.6°, Roll: 125.7°, Yaw: 0.3°
+2025-01-09 21:06:54 - INFO - Processed data: Pitch: -6.8°, Roll: 125.6°, Yaw: 0.5°
+2025-01-09 21:06:54 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:55 - INFO - Processed data: Pitch: -6.4°, Roll: 125.5°, Yaw: 0.6°
+2025-01-09 21:06:55 - INFO - Processed data: Pitch: -6.8°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:06:55 - INFO - Processed data: Pitch: -6.7°, Roll: 125.6°, Yaw: 0.6°
+2025-01-09 21:06:55 - INFO - Processed data: Pitch: -6.6°, Roll: 125.6°, Yaw: 0.4°
+2025-01-09 21:06:55 - INFO - Processed data: Pitch: -6.5°, Roll: 125.5°, Yaw: 0.6°
+2025-01-09 21:06:55 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:55 - INFO - Processed data: Pitch: -6.6°, Roll: 125.7°, Yaw: 0.6°
+2025-01-09 21:06:55 - INFO - Processed data: Pitch: -6.5°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:06:55 - INFO - Processed data: Pitch: -6.7°, Roll: 125.4°, Yaw: 0.7°
+2025-01-09 21:06:55 - INFO - Processed data: Pitch: -6.8°, Roll: 125.5°, Yaw: 0.5°
+2025-01-09 21:06:56 - INFO - Processed data: Pitch: -6.7°, Roll: 125.5°, Yaw: 0.5°
+2025-01-09 21:06:56 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:56 - INFO - Processed data: Pitch: -6.8°, Roll: 125.9°, Yaw: 0.5°
+2025-01-09 21:06:56 - INFO - Processed data: Pitch: -6.6°, Roll: 125.7°, Yaw: 0.6°
+2025-01-09 21:06:56 - INFO - Processed data: Pitch: -6.5°, Roll: 125.7°, Yaw: 0.4°
+2025-01-09 21:06:56 - INFO - Processed data: Pitch: -6.7°, Roll: 125.5°, Yaw: 0.5°
+2025-01-09 21:06:56 - INFO - Processed data: Pitch: -6.7°, Roll: 125.9°, Yaw: 0.6°
+2025-01-09 21:06:56 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:56 - INFO - Processed data: Pitch: -6.8°, Roll: 126.0°, Yaw: 0.6°
+2025-01-09 21:06:56 - INFO - Processed data: Pitch: -6.8°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:06:56 - INFO - Processed data: Pitch: -6.5°, Roll: 125.6°, Yaw: 0.7°
+2025-01-09 21:06:57 - INFO - Processed data: Pitch: -6.6°, Roll: 125.9°, Yaw: 0.4°
+2025-01-09 21:06:57 - INFO - Processed data: Pitch: -6.7°, Roll: 125.6°, Yaw: 0.6°
+2025-01-09 21:06:57 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:57 - INFO - Processed data: Pitch: -6.8°, Roll: 67.0°, Yaw: 0.6°
+2025-01-09 21:06:57 - INFO - Processed data: Pitch: -6.6°, Roll: 125.4°, Yaw: 0.7°
+2025-01-09 21:06:57 - INFO - Processed data: Pitch: -6.7°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:06:57 - INFO - Processed data: Pitch: -6.6°, Roll: 125.5°, Yaw: 0.5°
+2025-01-09 21:06:57 - INFO - Processed data: Pitch: -6.6°, Roll: 125.5°, Yaw: 0.5°
+2025-01-09 21:06:57 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:57 - INFO - Processed data: Pitch: -6.8°, Roll: 125.5°, Yaw: 0.6°
+2025-01-09 21:06:57 - INFO - Processed data: Pitch: -6.4°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:06:58 - INFO - Processed data: Pitch: -6.7°, Roll: 125.5°, Yaw: 0.6°
+2025-01-09 21:06:58 - INFO - Processed data: Pitch: -6.7°, Roll: 125.4°, Yaw: 0.5°
+2025-01-09 21:06:58 - INFO - Processed data: Pitch: -6.5°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:06:58 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:58 - INFO - Processed data: Pitch: -6.8°, Roll: 125.9°, Yaw: 0.6°
+2025-01-09 21:06:58 - INFO - Processed data: Pitch: -6.8°, Roll: 126.0°, Yaw: 0.6°
+2025-01-09 21:06:58 - INFO - Processed data: Pitch: -6.7°, Roll: 125.7°, Yaw: 0.3°
+2025-01-09 21:06:58 - INFO - Processed data: Pitch: -6.6°, Roll: 125.6°, Yaw: 0.5°
+2025-01-09 21:06:58 - INFO - Processed data: Pitch: -6.9°, Roll: 125.8°, Yaw: 0.6°
+2025-01-09 21:06:58 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:58 - INFO - Processed data: Pitch: -6.5°, Roll: 125.9°, Yaw: 0.4°
+2025-01-09 21:06:59 - INFO - Processed data: Pitch: -6.8°, Roll: 125.7°, Yaw: 0.6°
+2025-01-09 21:06:59 - INFO - Processed data: Pitch: -6.7°, Roll: 125.6°, Yaw: 0.6°
+2025-01-09 21:06:59 - INFO - Processed data: Pitch: -6.7°, Roll: 125.8°, Yaw: 0.7°
+2025-01-09 21:06:59 - INFO - Processed data: Pitch: -6.9°, Roll: 125.9°, Yaw: 0.6°
+2025-01-09 21:06:59 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:06:59 - INFO - Processed data: Pitch: -6.7°, Roll: 125.5°, Yaw: 0.5°
+2025-01-09 21:06:59 - INFO - Processed data: Pitch: -6.8°, Roll: 125.5°, Yaw: 0.6°
+2025-01-09 21:06:59 - INFO - Processed data: Pitch: -6.6°, Roll: 125.6°, Yaw: 0.5°
+2025-01-09 21:06:59 - INFO - Processed data: Pitch: -6.6°, Roll: 126.0°, Yaw: 0.6°
+2025-01-09 21:06:59 - INFO - Processed data: Pitch: -6.8°, Roll: 125.9°, Yaw: 0.4°
+2025-01-09 21:07:00 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:00 - INFO - Processed data: Pitch: -6.8°, Roll: 125.5°, Yaw: 0.6°
+2025-01-09 21:07:00 - INFO - Processed data: Pitch: -6.7°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:07:00 - INFO - Processed data: Pitch: -6.8°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:07:00 - INFO - Processed data: Pitch: -6.8°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:07:00 - INFO - Processed data: Pitch: -6.9°, Roll: 125.9°, Yaw: 0.6°
+2025-01-09 21:07:00 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:00 - INFO - Processed data: Pitch: -6.8°, Roll: 125.6°, Yaw: 0.5°
+2025-01-09 21:07:00 - INFO - Processed data: Pitch: -6.6°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:07:00 - INFO - Processed data: Pitch: -6.8°, Roll: 125.5°, Yaw: 0.5°
+2025-01-09 21:07:00 - INFO - Processed data: Pitch: -6.5°, Roll: 125.4°, Yaw: 0.6°
+2025-01-09 21:07:01 - INFO - Processed data: Pitch: -6.8°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:07:01 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:01 - INFO - Processed data: Pitch: -6.7°, Roll: 125.5°, Yaw: 0.6°
+2025-01-09 21:07:01 - INFO - Processed data: Pitch: -6.8°, Roll: 125.8°, Yaw: 0.6°
+2025-01-09 21:07:01 - INFO - Processed data: Pitch: -6.7°, Roll: 125.7°, Yaw: 0.6°
+2025-01-09 21:07:01 - INFO - Processed data: Pitch: -6.8°, Roll: 125.7°, Yaw: 0.6°
+2025-01-09 21:07:01 - INFO - Processed data: Pitch: -6.6°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:07:01 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:01 - INFO - Processed data: Pitch: -6.9°, Roll: 125.9°, Yaw: 0.6°
+2025-01-09 21:07:01 - INFO - Processed data: Pitch: -6.7°, Roll: 125.8°, Yaw: 0.7°
+2025-01-09 21:07:01 - INFO - Processed data: Pitch: -6.5°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:07:02 - INFO - Processed data: Pitch: -6.7°, Roll: 126.0°, Yaw: 0.5°
+2025-01-09 21:07:02 - INFO - Processed data: Pitch: -6.8°, Roll: 125.8°, Yaw: 0.6°
+2025-01-09 21:07:02 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:02 - INFO - Processed data: Pitch: -6.6°, Roll: 125.8°, Yaw: 0.6°
+2025-01-09 21:07:02 - INFO - Processed data: Pitch: -6.6°, Roll: 125.7°, Yaw: 0.6°
+2025-01-09 21:07:02 - INFO - Processed data: Pitch: -6.6°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:07:02 - INFO - Processed data: Pitch: -6.8°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:07:02 - INFO - Processed data: Pitch: -6.9°, Roll: 125.7°, Yaw: 0.6°
+2025-01-09 21:07:02 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:02 - INFO - Processed data: Pitch: -6.6°, Roll: 125.6°, Yaw: 0.5°
+2025-01-09 21:07:02 - INFO - Processed data: Pitch: -6.6°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:07:03 - INFO - Processed data: Pitch: -6.8°, Roll: 126.0°, Yaw: 0.5°
+2025-01-09 21:07:03 - INFO - Processed data: Pitch: -6.7°, Roll: 125.8°, Yaw: 0.6°
+2025-01-09 21:07:03 - INFO - Processed data: Pitch: -6.8°, Roll: 125.6°, Yaw: 0.5°
+2025-01-09 21:07:03 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:03 - WARNING - Malformed data received: .05,133.99,-4.87,0.91
+2025-01-09 21:07:03 - ERROR - Error processing data: list index out of range
+2025-01-09 21:07:03 - INFO - Processed data: Pitch: -6.5°, Roll: 125.8°, Yaw: 0.6°
+2025-01-09 21:07:03 - INFO - Processed data: Pitch: -7.0°, Roll: 125.8°, Yaw: 0.6°
+2025-01-09 21:07:03 - INFO - Processed data: Pitch: -6.7°, Roll: 125.5°, Yaw: 0.6°
+2025-01-09 21:07:03 - INFO - Processed data: Pitch: -6.7°, Roll: 125.7°, Yaw: 0.6°
+2025-01-09 21:07:03 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:03 - INFO - Processed data: Pitch: -6.7°, Roll: 125.8°, Yaw: 0.4°
+2025-01-09 21:07:03 - INFO - Processed data: Pitch: -6.8°, Roll: 126.3°, Yaw: 0.5°
+2025-01-09 21:07:04 - INFO - Processed data: Pitch: -6.8°, Roll: 126.0°, Yaw: 0.6°
+2025-01-09 21:07:04 - INFO - Processed data: Pitch: -6.5°, Roll: 125.8°, Yaw: 0.6°
+2025-01-09 21:07:04 - INFO - Processed data: Pitch: -6.5°, Roll: 125.9°, Yaw: 0.5°
+2025-01-09 21:07:04 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:04 - INFO - Processed data: Pitch: -6.7°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:07:04 - INFO - Processed data: Pitch: -6.7°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:07:04 - INFO - Processed data: Pitch: -6.6°, Roll: 125.6°, Yaw: 0.5°
+2025-01-09 21:07:04 - INFO - Processed data: Pitch: -6.6°, Roll: 125.9°, Yaw: 0.5°
+2025-01-09 21:07:04 - INFO - Processed data: Pitch: -6.8°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:07:04 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:04 - INFO - Processed data: Pitch: -6.7°, Roll: 125.9°, Yaw: 0.6°
+2025-01-09 21:07:05 - INFO - Processed data: Pitch: -6.7°, Roll: 126.1°, Yaw: 0.6°
+2025-01-09 21:07:05 - INFO - Processed data: Pitch: -6.7°, Roll: 125.6°, Yaw: 0.5°
+2025-01-09 21:07:05 - INFO - Processed data: Pitch: -6.5°, Roll: 125.6°, Yaw: 0.5°
+2025-01-09 21:07:05 - INFO - Processed data: Pitch: -6.7°, Roll: 126.0°, Yaw: 0.5°
+2025-01-09 21:07:05 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:05 - INFO - Processed data: Pitch: -6.7°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:07:05 - INFO - Processed data: Pitch: -6.7°, Roll: 125.8°, Yaw: 0.6°
+2025-01-09 21:07:05 - INFO - Processed data: Pitch: -6.8°, Roll: 125.9°, Yaw: 0.4°
+2025-01-09 21:07:05 - INFO - Processed data: Pitch: -6.4°, Roll: 125.8°, Yaw: 0.4°
+2025-01-09 21:07:05 - INFO - Processed data: Pitch: -6.9°, Roll: 126.2°, Yaw: 0.6°
+2025-01-09 21:07:06 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:06 - INFO - Processed data: Pitch: -6.4°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:07:06 - INFO - Processed data: Pitch: -6.7°, Roll: 126.1°, Yaw: 0.5°
+2025-01-09 21:07:06 - INFO - Processed data: Pitch: -6.6°, Roll: 125.7°, Yaw: 0.4°
+2025-01-09 21:07:06 - INFO - Processed data: Pitch: -6.6°, Roll: 125.7°, Yaw: 0.6°
+2025-01-09 21:07:06 - INFO - Processed data: Pitch: -6.7°, Roll: 125.9°, Yaw: 0.6°
+2025-01-09 21:07:06 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:06 - INFO - Processed data: Pitch: -6.7°, Roll: 125.9°, Yaw: 0.6°
+2025-01-09 21:07:06 - INFO - Processed data: Pitch: -6.6°, Roll: 126.2°, Yaw: 0.6°
+2025-01-09 21:07:06 - INFO - Processed data: Pitch: -6.7°, Roll: 126.3°, Yaw: 0.6°
+2025-01-09 21:07:07 - INFO - Processed data: Pitch: -6.6°, Roll: 125.9°, Yaw: 0.5°
+2025-01-09 21:07:07 - INFO - Processed data: Pitch: -6.9°, Roll: 125.5°, Yaw: 0.5°
+2025-01-09 21:07:07 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:07 - INFO - Processed data: Pitch: -6.6°, Roll: 125.7°, Yaw: 0.6°
+2025-01-09 21:07:07 - INFO - Processed data: Pitch: -6.8°, Roll: 125.9°, Yaw: 0.5°
+2025-01-09 21:07:07 - INFO - Processed data: Pitch: -6.8°, Roll: 125.6°, Yaw: 0.5°
+2025-01-09 21:07:07 - INFO - Processed data: Pitch: -6.8°, Roll: 125.8°, Yaw: 0.6°
+2025-01-09 21:07:07 - INFO - Processed data: Pitch: -6.7°, Roll: 125.9°, Yaw: 0.4°
+2025-01-09 21:07:07 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:07 - INFO - Processed data: Pitch: -6.9°, Roll: 125.9°, Yaw: 0.5°
+2025-01-09 21:07:07 - INFO - Processed data: Pitch: -6.6°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:07:08 - INFO - Processed data: Pitch: -7.0°, Roll: 125.9°, Yaw: 0.6°
+2025-01-09 21:07:08 - INFO - Processed data: Pitch: -6.7°, Roll: 125.9°, Yaw: 0.4°
+2025-01-09 21:07:08 - INFO - Processed data: Pitch: -6.7°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:07:08 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:08 - INFO - Processed data: Pitch: -6.8°, Roll: 125.9°, Yaw: 0.5°
+2025-01-09 21:07:08 - INFO - Processed data: Pitch: -6.6°, Roll: 125.9°, Yaw: 0.5°
+2025-01-09 21:07:08 - INFO - Processed data: Pitch: -6.6°, Roll: 126.0°, Yaw: 0.5°
+2025-01-09 21:07:08 - INFO - Processed data: Pitch: -6.5°, Roll: 126.1°, Yaw: 0.6°
+2025-01-09 21:07:08 - INFO - Processed data: Pitch: -6.5°, Roll: 125.9°, Yaw: 0.5°
+2025-01-09 21:07:08 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:08 - INFO - Processed data: Pitch: -6.8°, Roll: 125.8°, Yaw: 0.6°
+2025-01-09 21:07:09 - INFO - Processed data: Pitch: -6.6°, Roll: 125.7°, Yaw: 0.6°
+2025-01-09 21:07:09 - INFO - Processed data: Pitch: -6.7°, Roll: 125.8°, Yaw: 0.4°
+2025-01-09 21:07:09 - INFO - Processed data: Pitch: -6.5°, Roll: 125.7°, Yaw: 0.5°
+2025-01-09 21:07:09 - INFO - Processed data: Pitch: -6.6°, Roll: 125.9°, Yaw: 0.6°
+2025-01-09 21:07:09 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:09 - WARNING - Malformed data received: -8.88,0.16,134.20,-5.15,0.94
+2025-01-09 21:07:09 - ERROR - Error processing data: list index out of range
+2025-01-09 21:07:09 - INFO - Processed data: Pitch: -7.0°, Roll: 125.5°, Yaw: 0.5°
+2025-01-09 21:07:09 - INFO - Processed data: Pitch: -6.7°, Roll: 125.6°, Yaw: 0.6°
+2025-01-09 21:07:09 - INFO - Processed data: Pitch: -6.6°, Roll: 125.9°, Yaw: 0.7°
+2025-01-09 21:07:09 - INFO - Processed data: Pitch: -6.8°, Roll: 126.0°, Yaw: 0.5°
+2025-01-09 21:07:10 - WARNING - Serial buffer overflow detected. Resetting input buffer.
+2025-01-09 21:07:10 - INFO - Processed data: Pitch: -6.7°, Roll: 125.8°, Yaw: 0.5°
+2025-01-09 21:07:10 - INFO - --- Exiting mobility_test_gui.py
