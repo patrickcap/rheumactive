@@ -101,6 +101,21 @@ class IMUGUI(QMainWindow):
         self.start_test_button = QPushButton("Start 10s Test")
         self.start_test_button.clicked.connect(self.start_test)
         layout.addWidget(self.start_test_button)
+
+        # Previous Results Section
+        self.previous_results_label = QLabel("Previous Results:")
+        layout.addWidget(self.previous_results_label)
+        
+        self.previous_results_text = QTextEdit()
+        self.previous_results_text.setReadOnly(True)
+        layout.addWidget(self.previous_results_text)
+        
+        # Highest Score Section
+        self.highest_score_label = QLabel("Highest Score:")
+        layout.addWidget(self.highest_score_label)
+        
+        self.highest_score_text = QLabel("No results yet")
+        layout.addWidget(self.highest_score_text)
         
         self.test_tab.setLayout(layout)
         self.load_test_page()
@@ -114,6 +129,30 @@ class IMUGUI(QMainWindow):
             "Right Elbow": "This test measures the flexibility and strength of the right elbow."
         }
         self.test_info.setText(test_descriptions.get(joint, "Select a test to see details."))
+        self.update_previous_results()
+
+    def update_previous_results(self):
+        joint = self.test_combobox.currentText()
+        results_for_joint = [result for result in self.test_results if result[0] == joint]
+        
+        if results_for_joint:
+            # Display the results
+            results_text = "\n".join([f"Date: {result[2]}, Max Differences: {result[1]}" for result in results_for_joint])
+            self.previous_results_text.setText(results_text)
+            
+            # Calculate and display the highest score
+            highest_score = max(
+                results_for_joint,
+                key=lambda result: sum(abs(value) for value in result[1]),
+                default=None
+            )
+            if highest_score:
+                self.highest_score_text.setText(f"Date: {highest_score[2]}, Max Differences: {highest_score[1]}")
+            else:
+                self.highest_score_text.setText("No results yet")
+        else:
+            self.previous_results_text.setText("No previous results")
+            self.highest_score_text.setText("No results yet")
 
     def start_test(self):
         self.datum = None
