@@ -136,7 +136,7 @@ class MobilityTestApp:
         self.test_datum_title = tk.Label(tab, text="Datum", font=("Helvetica", 12, "bold"), wraplength=400, justify="left")
         self.test_datum_title.pack(pady=0)
 
-        self.test_datum_note = tk.Label(tab, text="Before starting the test, ensure your foot is at a 90 degree angle to your lower legand is raised off the ground to allow for full movement. This can be done by sitting or standing and raising the foot slightly above the ground (~20cm).", font=("Helvetica", 12), wraplength=400, justify="center")
+        self.test_datum_note = tk.Label(tab, text="Before starting the test, ensure your foot is at a 90 degree angle to your lower leg and is raised off the ground to allow for full movement. This can be done by sitting or standing and raising the foot slightly above the ground (~20cm).", font=("Helvetica", 12), wraplength=400, justify="left")
         self.test_datum_note.pack(pady=0)
 
         # Start test button
