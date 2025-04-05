@@ -6,6 +6,7 @@ from PyQt6.QtWidgets import (
 )
 from PyQt6.QtCore import QTimer, QDateTime
 import pyqtgraph as pg
+import json
 
 class IMUGUI(QMainWindow):
     def __init__(self):
@@ -21,6 +22,8 @@ class IMUGUI(QMainWindow):
         self.test_results = []
         self.test_active = False
         self.test_start_time = None
+        
+        self.load_test_results()  # Load any previous test results from file
         
         self.initUI()
 
@@ -173,6 +176,21 @@ class IMUGUI(QMainWindow):
             
             except ValueError:
                 print("Invalid data format:", raw_data)
+    
+    def load_test_results(self):
+        try:
+            with open('test_results.json', 'r') as file:
+                self.test_results = json.load(file)
+        except FileNotFoundError:
+            self.test_results = []
+    
+    def save_test_results(self):
+        with open('test_results.json', 'w') as file:
+            json.dump(self.test_results, file)
+        
+    def closeEvent(self, event):
+        # Save test results when the app is closed
+        self.save_test_results()
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
