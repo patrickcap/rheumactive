@@ -189,7 +189,7 @@ class IMUGUI(QMainWindow):
                         values = line.strip().split(',')
                         
                         if len(values) == self.num_values and all(v.replace('.', '', 1).replace('-', '', 1).isdigit() for v in values):
-                            values = [float(v) for v in values]
+                            values = [round(float(v), 1) for v in values]  # Limit precision to 1 decimal place
                             
                             if self.test_active:
                                 current_time = QDateTime.currentDateTime().toSecsSinceEpoch()
