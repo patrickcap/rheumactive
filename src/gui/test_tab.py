@@ -11,6 +11,7 @@ class TestTab(QWidget):
         self.datum = None
         self.initUI()
         self.load_test_page()
+        self.update_start_button_state() # Initial state of the button
 
     def initUI(self):
         layout = QVBoxLayout()
@@ -86,7 +87,7 @@ class TestTab(QWidget):
         self.datum = None
         self.test_active = True
         self.test_start_time = QDateTime.currentDateTime().toSecsSinceEpoch()
-        self.max_diff = [0] * self.main_window.data_tab_widget.num_values
+        self.max_diff = [0.0] * self.main_window.data_tab_widget.num_values
         self.start_test_button.setEnabled(False)
         self.test_info.setText("Test in progress... Please move the joint.")
 
@@ -96,14 +97,32 @@ class TestTab(QWidget):
             elapsed_time = current_time - self.test_start_time
 
             if self.datum is None:
-                self.datum = current_values[:]
+                self.datum = [float(v) for v in current_values]
 
-            diffs = [abs(current_values[i] - self.datum[i]) for i in range(self.main_window.data_tab_widget.num_values)]
+            diffs = [abs(float(current_values[i]) - self.datum[i]) for i in range(self.main_window.data_tab_widget.num_values)]
             self.max_diff = [max(self.max_diff[i], diffs[i]) for i in range(self.main_window.data_tab_widget.num_values)]
 
             if elapsed_time >= 10:
-                self.main_window.test_results.append((self.test_combobox.currentText(), self.max_diff, QDateTime.currentDateTime().toString()))
+                rounded_max_diff = [round(diff, 1) for diff in self.max_diff]
+                self.main_window.test_results.append((self.test_combobox.currentText(), rounded_max_diff, QDateTime.currentDateTime().toString()))
                 self.test_active = False
                 self.start_test_button.setEnabled(True)
-                self.test_info.setText(f"Test complete! Max differences: {self.max_diff}")
+                self.test_info.setText(f"Test complete! Max differences: {rounded_max_diff}")
                 self.update_previous_results()
+
+    def update_start_button_state(self):
+        """Enables or disables the start test button based on the serial connection status."""
+        if self.main_window.serial_port and self.main_window.serial_port.is_open:
+            self.start_test_button.setEnabled(True)
+        else:
+            self.start_test_button.setEnabled(False)
+
+    def showEvent(self, event):
+        """Called when the tab is shown, update the button state."""
+        super().showEvent(event)
+        self.update_start_button_state()
+
+    def hideEvent(self, event):
+        """Called when the tab is hidden."""
+        super().hideEvent(event)
+        # Optionally handle any cleanup if needed when the tab is hidden
