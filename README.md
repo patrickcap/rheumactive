@@ -19,8 +19,8 @@ The devices and designs provided are shared freely for educational and informati
 
 ## Features
 
-- **Real-Time Data Acquisition:** Collect roll, pitch, yaw, acceleration, and angular velocity data from multiple MPU-6050 sensors.
-- **Angular Difference Analysis:** Measure the angular differences between two sensors for detailed joint movement tracking.
+- **Joint Mobility Tracking:** View the progress of your joint mobility with tests, history, high scores, visualisations and more!
+- **Real-Time Data Visualisation:** Collect roll, pitch, yaw, acceleration, and angular velocity data from multiple MPU-6050 sensors.
 - **Portable and Wearable:** Designed to work with a compact, wearable system powered by Arduino Nano ESP32.
 - **Customizable Codebase:** Modify the software to adapt to different applications or sensor configurations.
 
@@ -31,7 +31,7 @@ The devices and designs provided are shared freely for educational and informati
 1. [Hardware Requirements](#hardware-requirements)
 2. [Software Requirements](#software-requirements)
 3. [Installation](#installation)
-4. [Usage](#usage)
+4. [Getting Started](#getting-started)
 5. [Contributing](#contributing)
 6. [License](#license)
 
@@ -42,7 +42,7 @@ The devices and designs provided are shared freely for educational and informati
 - **Arduino Nano ESP32 (ABX00083)**
 - **MPU-6050 Accelerometers (x2)**
 - **Breadboard and Jumper Wires**
-- **USB-C to USB-A Cable**
+- **USB-C to USB-C/A Cable**
 - **Laptop (Windows/Mac/Linux)**
 
 ---
@@ -66,22 +66,34 @@ cd rheumactive
 - Open the Arduino IDE.
 - Install the necessary libraries using the Library Manager:
   - Search for "Adafruit MPU6050" and install it.
-- Upload the provided `rheumactive.ino` file in the `arduino_sketches` directory to the Arduino Nano ESP32.
+- Upload the provided `arduino_sketches/best/Arduino_Sketch_Dual_MVP_01.ino` file to the Arduino Nano ESP32.
 
 ---
 
-## Usage
+## Getting Started
 
-1. **Connect the Sensors:**
-   - Wire the MPU-6050 sensors to the Arduino Nano ESP32 as described in the documentation.
+1. **Wire the Sensors:**
+   - Wire the MPU-6050 sensors to the Arduino Nano ESP32 as follows (MPU-6050 on left, Arduino Nano ESP32 on right):
+      - For both MPU-6050:
+         - VCC -> 3.3V
+         - GND -> GND
+         - SCL -> A5
+         - SDA -> A4
+      
+      - For MPU-6050 #1: AD0 -> 3.3V
+      - For MPU-6050 #2: AD0 -> GND
+
    - Ensure each sensor has a unique I2C address (`AD0` pin set appropriately).
 
-2. **Run the Arduino Code:**
-   - Open the `rheumactive.ino` file in Arduino IDE.
-   - Upload the sketch to the Arduino Nano ESP32.
+2. **Provide a Connection to the Sensors:**
+   - Connect the Arduino Nano ESP32 to your machine via a USB-C to USB-C/A cable.
 
-3. **Monitor Data:**
-   - Open the Arduino Serial Monitor to view angular measurements and angular differences in real time.
+3. **Run the Program:**
+   - In terminal, open the repository and navigate to the `src` directory.
+   - Execute the command `python main.py` to run the program.
+
+4. **Connect to the Sensors:**
+   - In the Serial Tab of RheumActive, choose the correct communication (COM) port (it should be the only one available) and select 'Connect'. If successful, the "Status" should change from "Not Connected" to "Connected".
 
 ---
 
