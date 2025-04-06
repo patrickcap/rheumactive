@@ -1,6 +1,6 @@
 # RheumActive
 
-![RheumActive Hardware Setup](assets/rheumactive_cover.png)
+<!-- ![RheumActive Hardware Setup](assets/rheumactive_cover.png) -->
 
 ![RheumActive Data Stream Screnshot](assets/rheumactive_data.png)
 ![RheumActive Left Ankle Tests Screenshot](assets/rheumactive_test.png)
