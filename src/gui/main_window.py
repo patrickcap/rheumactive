@@ -42,8 +42,9 @@ class IMUGUI(QMainWindow):
 
     def save_test_results(self):
         with open('data/test_results.json', 'w') as file:
-            json.dump(self.test_results, file)
+            json_lines = [json.dumps(result) for result in self.test_results]
+            file.write('[\n  ' + ',\n  '.join(json_lines) + '\n]')
 
     def closeEvent(self, event):
-        # Save test results when the app is closed
-        self.save_test_results()
+        # Events on close of application
+        pass
