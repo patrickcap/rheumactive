@@ -52,10 +52,39 @@ class TestTab(QWidget):
     def load_test_page(self):
         joint = self.test_combobox.currentText()
         test_descriptions = {
-            "Left Ankle": "This test measures the range of motion of the left ankle.",
-            "Right Ankle": "This test measures the range of motion of the right ankle.",
-            "Left Elbow": "This test measures the flexibility and strength of the left elbow.",
+            "Left Ankle": "This test measures the range of motion of the left ankle."
+            "\n\n"
+            "Instructions:"
+            "\n     1. Sit down on a chair and elevate your left foot slightly above the ground."
+            "\n     2. Strap the RheumActive band(s) around the middle of your left foot."
+            "\n     3. Click the button to begin the test."
+            "\n     4. While keeping your left leg stationary, move your left foot around as much as possible until the test is completed."
+            "\n     5. Check your results and see how they compare to previous results!",
+
+            "Right Ankle": "This test measures the range of motion of the right ankle."
+            "\n\n"
+            "Instructions:"
+            "\n     1. Sit down on a chair and elevate your right foot slightly above the ground."
+            "\n     2. Strap the RheumActive band(s) around the middle of your right foot."
+            "\n     3. Click the button to begin the test."
+            "\n     4. While keeping your right leg stationary, move your right foot around as much as possible until the test is completed."
+            "\n     5. Check your results and see how they compare to previous results!",
+
+            "Left Elbow": "This test measures the flexibility and strength of the left elbow."
+            "\n\n"
+            "Instructions:"
+            "\n     1. Strap the RheumActive band(s) around the middle of your left forearm."
+            "\n     2. Click the button to begin the test."
+            "\n     3. While keeping your upper arm stationary, extend (hand away from you) and retract (hand towards you) your lower arm as much as possible until the test is completed."
+            "\n     4. Check your results and see how they compare to previous results!",
+
             "Right Elbow": "This test measures the flexibility and strength of the right elbow."
+            "\n\n"
+            "Instructions:"
+            "\n     1. Strap the RheumActive band(s) around the middle of your right forearm."
+            "\n     2. Click the button to begin the test."
+            "\n     3. While keeping your upper arm stationary, extend (hand away from you) and retract (hand towards you) your lower arm as much as possible until the test is completed."
+            "\n     4. Check your results and see how they compare to previous results!",
         }
         self.test_info.setText(test_descriptions.get(joint, "Select a test to see details."))
         self.update_previous_results()
@@ -67,7 +96,7 @@ class TestTab(QWidget):
         if results_for_joint:
             # Display the results with scores
             results_text = "\n".join([
-                f"Date: {result[2]}, Score: {sum(abs(value) for value in result[1])}, Max Differences: {result[1]}"
+                f"Date: {result[1]}, Score: {result[2]}, Max Differences: {result[3]}"
                 for result in results_for_joint
             ])
             self.previous_results_text.setText(results_text)
@@ -75,13 +104,13 @@ class TestTab(QWidget):
             # Calculate and display the highest score
             highest_score_result = max(
                 results_for_joint,
-                key=lambda result: sum(abs(value) for value in result[1]),
+                key=lambda result: result[2],
                 default=None
             )
             if highest_score_result:
-                highest_score = sum(abs(value) for value in highest_score_result[1])
+                highest_score = highest_score_result[2]
                 self.highest_score_text.setText(
-                    f"Date: {highest_score_result[2]}, Score: {highest_score}, Max Differences: {highest_score_result[1]}"
+                    f"Date: {highest_score_result[1]}, Score: {highest_score}, Max Differences: {highest_score_result[3]}"
                 )
             else:
                 self.highest_score_text.setText("No results yet")
@@ -110,10 +139,18 @@ class TestTab(QWidget):
 
             if elapsed_time >= 10:
                 rounded_max_diff = [round(diff, 1) for diff in self.max_diff]
-                self.main_window.test_results.append((self.test_combobox.currentText(), rounded_max_diff, QDateTime.currentDateTime().toString()))
+                score = self.calculate_score(rounded_max_diff)  # Calculate score using the new function
+                new_result = [
+                    self.test_combobox.currentText(),
+                    QDateTime.currentDateTime().toString(),
+                    score,
+                    rounded_max_diff
+                ]
+                self.main_window.test_results.append(new_result)
+                self.main_window.save_test_results()
                 self.test_active = False
                 self.start_test_button.setEnabled(True)
-                self.test_info.setText(f"Test complete! Score: {sum(abs(value) for value in rounded_max_diff)} Max differences: {rounded_max_diff}")
+                self.test_info.setText(f"Test complete! Score: {score} Max differences: {rounded_max_diff}")
                 self.update_previous_results()
 
     def update_start_button_state(self):
@@ -132,3 +169,9 @@ class TestTab(QWidget):
         """Called when the tab is hidden."""
         super().hideEvent(event)
         # Optionally handle any cleanup if needed when the tab is hidden
+
+    def calculate_score(self, max_differences):
+        """Calculates the score (sum of absolute values) from max differences,
+        rounded to one decimal place.
+        """
+        return round(sum(abs(value) for value in max_differences), 1)
