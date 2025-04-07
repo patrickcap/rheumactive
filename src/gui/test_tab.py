@@ -65,18 +65,24 @@ class TestTab(QWidget):
         results_for_joint = [result for result in self.main_window.test_results if result[0] == joint]
 
         if results_for_joint:
-            # Display the results
-            results_text = "\n".join([f"Date: {result[2]}, Max Differences: {result[1]}" for result in results_for_joint])
+            # Display the results with scores
+            results_text = "\n".join([
+                f"Date: {result[2]}, Score: {sum(abs(value) for value in result[1])}, Max Differences: {result[1]}"
+                for result in results_for_joint
+            ])
             self.previous_results_text.setText(results_text)
 
             # Calculate and display the highest score
-            highest_score = max(
+            highest_score_result = max(
                 results_for_joint,
                 key=lambda result: sum(abs(value) for value in result[1]),
                 default=None
             )
-            if highest_score:
-                self.highest_score_text.setText(f"Date: {highest_score[2]}, Max Differences: {highest_score[1]}")
+            if highest_score_result:
+                highest_score = sum(abs(value) for value in highest_score_result[1])
+                self.highest_score_text.setText(
+                    f"Date: {highest_score_result[2]}, Score: {highest_score}, Max Differences: {highest_score_result[1]}"
+                )
             else:
                 self.highest_score_text.setText("No results yet")
         else:
@@ -107,7 +113,7 @@ class TestTab(QWidget):
                 self.main_window.test_results.append((self.test_combobox.currentText(), rounded_max_diff, QDateTime.currentDateTime().toString()))
                 self.test_active = False
                 self.start_test_button.setEnabled(True)
-                self.test_info.setText(f"Test complete! Max differences: {rounded_max_diff}")
+                self.test_info.setText(f"Test complete! Score: {sum(abs(value) for value in rounded_max_diff)} Max differences: {rounded_max_diff}")
                 self.update_previous_results()
 
     def update_start_button_state(self):
